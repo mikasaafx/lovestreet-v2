@@ -197,7 +197,7 @@ main .content-image img {
   font-weight: 420;
 }
 
-.about h1 {
+.about h2 {
   text-align: center;
   padding-top: 1rem;
 }
@@ -215,7 +215,7 @@ header h1 {
   padding-top: 1rem;
 }
 
-.layanan-kami h1 {
+.layanan-kami h3 {
   text-align: center;
 }
 
@@ -236,9 +236,10 @@ header h1 {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   margin: 1em;
   padding: 1.5em;
-  text-align: center;
-  width: calc(25% - 2em);
+  text-align: justify;
+  width: calc(30% - 2em);
   max-height: 450px;
+/*  max-width: 400px;*/
   transition: transform 0.2s;
 }
 
@@ -251,16 +252,20 @@ header h1 {
   height: 100px;
   margin-bottom: 1em;
   border-radius: 20%;
+  margin-left: 2.3rem;
 }
 
-.service h2 {
+.layanan-kami h2 {
   font-size: 1.5em;
-  margin: 0.5em 0;
+  margin: 0;
+  text-align: center;
 }
 
-.service p {
+.layanan-kami .service p {
   color: #555;
   font-weight: 500;
+/*  padding-bottom: 1rem;*/
+/*  padding-top: 0;*/
 }
 
 .container {
@@ -379,9 +384,9 @@ header h1 {
   color: black;
 }
 
-.contact h1 {
+.contact h2 {
   text-align: center;
-  font-size: 2em;
+/*  font-size: 2em;*/
   padding-top: 1rem;
 }
 
@@ -437,7 +442,7 @@ footer {
 /*    position: fixed;*/
     bottom: 0;
     width: 100%;
-    margin-top: 2.7rem;
+    margin-top: 2rem;
 }
 
 footer p {
